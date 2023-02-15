@@ -4,7 +4,7 @@ base_prefixes:
 - MONDOALT
 - MONDO
 changed: true
-date: 2023-02-15 14:30:56.541212
+date: 2023-02-15 14:50:04.492536
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 375707

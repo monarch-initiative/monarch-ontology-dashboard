@@ -4,7 +4,7 @@ base_prefixes:
 - HPALT
 - HP
 changed: true
-date: 2023-02-15 14:32:32.259395
+date: 2023-02-15 14:51:57.233238
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 112828
@@ -30,12 +30,12 @@ metrics:
   'Info: Experimental OBO score':
     _dashboard: 0.8
     _formula: (3*impact+2*dashboard)/5
-    _impact: 0.4
+    _impact: 0.5
     _impact_external: 0.25
     _reuse: 0.113
-    oboscore: 0.56
+    oboscore: 0.62
   'Info: How many externally documented uses?': 1
-  'Info: How many ontologies use it?': 2
+  'Info: How many ontologies use it?': 3
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
@@ -61,6 +61,7 @@ metrics:
     rdf: 12
     rdfs: 21011
   'Info: Which ontologies use it?':
+  - geno
   - maxo
   - mondo
 mirror_from: http://purl.obolibrary.org/obo/hp/hp-base.owl
