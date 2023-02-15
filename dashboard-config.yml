@@ -33,7 +33,7 @@ ontologies:
     - id: tmp
       mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
     - id: mondo
-    - id: hpo
+    - id: hp
     - id: ecto
     - id: maxo
 prefer_base: True
