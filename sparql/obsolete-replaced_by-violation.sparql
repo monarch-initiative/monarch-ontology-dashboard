@@ -5,7 +5,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX replaced_by: <http://purl.obolibrary.org/obo/IAO_0100001>
 
-SELECT DISTINCT ?entity ?property ?value ?replaced_by WHERE {
+SELECT DISTINCT ?entity ?property ?value WHERE {
   {
    VALUES ?property {
      rdfs:subClassOf

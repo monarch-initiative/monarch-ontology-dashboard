@@ -8,6 +8,7 @@ ontologies:
     - id: maxo
     - id: sepio
     - id: geno
+    - id: vbo
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
