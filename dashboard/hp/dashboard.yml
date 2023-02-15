@@ -4,7 +4,7 @@ base_prefixes:
 - HPALT
 - HP
 changed: true
-date: 2023-02-15 10:29:25.057960
+date: 2023-02-15 14:32:32.259395
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 112828
@@ -29,11 +29,11 @@ metrics:
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
     _dashboard: 0.8
-    _formula: (1*impact+1*dashboard)/2
+    _formula: (3*impact+2*dashboard)/5
     _impact: 0.4
     _impact_external: 0.25
     _reuse: 0.113
-    oboscore: 0.6
+    oboscore: 0.56
   'Info: How many externally documented uses?': 1
   'Info: How many ontologies use it?': 2
   'Info: Logical consistency': true
@@ -98,12 +98,12 @@ results:
   FP20 Responsiveness:
     status: PASS
   ROBOT Report:
-    comment: 8954 warnings, 1 info messages.
+    comment: 3682 warnings, 1 info messages.
     file: robot_report
     results:
       ERROR: 0
       INFO: 1
-      WARN: 8954
+      WARN: 3682
     status: WARN
 sha256_hash: 80dd0ccc515d657977dfa8b55d511e6f559edba8cb58bdb9f494bb439d238098
 summary:
