@@ -32,6 +32,10 @@ ontologies:
   custom:
     - id: tmp
       mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
+    - id: mondo
+    - id: hpo
+    - id: ecto
+    - id: maxo
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
