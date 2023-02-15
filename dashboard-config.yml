@@ -2,12 +2,12 @@ title: "Monarch Initiative Ontology Dashboard"
 description: "Dashboard for checking ontology quality for core ontologies provided and/or used by the Monarch Initiative (https://monarchinitiative.org/about/licensing#ontologies)."
 ontologies:
   custom:
-    - id: tmp
-      mirror_from: "https://raw.githubusercontent.com/monarch-ebi-dev/robot_tests/master/custom-dashboard.owl"
     - id: mondo
     - id: hp
     - id: ecto
     - id: maxo
+    - id: sepio
+    - id: geno
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
