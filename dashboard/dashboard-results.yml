@@ -30,7 +30,7 @@ ontologies:
   - ECTOALT
   - ECTO
   changed: true
-  date: 2023-02-15 14:52:17.472935
+  date: 2023-02-15 15:33:18.034016
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 8675
@@ -53,10 +53,10 @@ ontologies:
     'Info: Experimental OBO score':
       _dashboard: 0.844
       _formula: (3*impact+2*dashboard)/5
-      _impact: 0.167
+      _impact: 0.143
       _impact_external: 0
       _reuse: 0.487
-      oboscore: 0.438
+      oboscore: 0.423
     'Info: How many externally documented uses?': 0
     'Info: How many ontologies use it?': 1
     'Info: Logical consistency': true
@@ -138,7 +138,7 @@ ontologies:
   - GENOALT
   - GENO
   changed: true
-  date: 2023-02-15 14:52:45.574016
+  date: 2023-02-15 15:33:39.954935
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 1808
@@ -177,12 +177,12 @@ ontologies:
       ObjectUnionOf: 15
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
-      _dashboard: 0.907
+      _dashboard: 0.727
       _formula: (3*impact+2*dashboard)/5
       _impact: 0.0
       _impact_external: 0
       _reuse: 0.385
-      oboscore: 0.363
+      oboscore: 0.291
     'Info: How many externally documented uses?': 0
     'Info: How many ontologies use it?': 0
     'Info: Logical consistency': true
@@ -232,8 +232,9 @@ ontologies:
     FP05 Scope:
       status: PASS
     FP06 Textual Definitions:
-      comment: ROBOT Report could not be generated
-      status: INFO
+      comment: 6 duplicate definitions. 83 missing definitions. See ROBOT Report for
+        details.
+      status: ERROR
     FP07 Relations:
       comment: 98 non-RO properties used.
       file: fp7
@@ -246,22 +247,27 @@ ontologies:
     FP11 Locus of Authority:
       status: PASS
     FP12 Naming Conventions:
-      comment: ROBOT Report could not be generated
-      status: INFO
+      comment: 1 duplicate labels. 4 multiple labels. See ROBOT Report for details.
+      status: ERROR
     FP16 Maintenance:
       status: PASS
     FP20 Responsiveness:
       status: PASS
     ROBOT Report:
-      comment: ROBOT Report could not be generated.
-      status: INFO
+      comment: 27 errors, 95 warnings, 29 info messages.
+      file: robot_report
+      results:
+        ERROR: 27
+        INFO: 29
+        WARN: 95
+      status: ERROR
   sha256_hash: ce548a49923e2fbf2fe41b58e9aff19317cf37efa2206c4c6e92508287eef1bb
   summary:
-    comment: 1 errors
+    comment: 4 errors
     status: ERROR
     summary_count:
-      ERROR: 1
-      INFO: 4
+      ERROR: 4
+      INFO: 1
       WARN: 0
   version: http://purl.obolibrary.org/obo/geno/releases/2022-08-10/geno-base.owl
 - base_generated: false
@@ -270,7 +276,7 @@ ontologies:
   - HPALT
   - HP
   changed: true
-  date: 2023-02-15 14:51:57.233238
+  date: 2023-02-15 15:33:03.375079
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 112828
@@ -296,10 +302,10 @@ ontologies:
     'Info: Experimental OBO score':
       _dashboard: 0.8
       _formula: (3*impact+2*dashboard)/5
-      _impact: 0.5
+      _impact: 0.429
       _impact_external: 0.25
       _reuse: 0.113
-      oboscore: 0.62
+      oboscore: 0.577
     'Info: How many externally documented uses?': 1
     'Info: How many ontologies use it?': 3
     'Info: Logical consistency': true
@@ -387,7 +393,7 @@ ontologies:
   - MAXOALT
   - MAXO
   changed: true
-  date: 2023-02-15 14:52:33.396781
+  date: 2023-02-15 15:33:29.560166
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 10773
@@ -410,10 +416,10 @@ ontologies:
     'Info: Experimental OBO score':
       _dashboard: 0.727
       _formula: (3*impact+2*dashboard)/5
-      _impact: 0.333
+      _impact: 0.286
       _impact_external: 0
       _reuse: 0.277
-      oboscore: 0.491
+      oboscore: 0.462
     'Info: How many externally documented uses?': 0
     'Info: How many ontologies use it?': 2
     'Info: Logical consistency': true
@@ -499,7 +505,7 @@ ontologies:
   - MONDOALT
   - MONDO
   changed: true
-  date: 2023-02-15 14:50:04.492536
+  date: 2023-02-15 15:31:45.192357
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 375707
@@ -526,12 +532,12 @@ ontologies:
       ObjectUnionOf: 14
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
-      _dashboard: 0.973
+      _dashboard: 0.949
       _formula: (3*impact+2*dashboard)/5
       _impact: 0.0
       _impact_external: 0.5
       _reuse: 0.191
-      oboscore: 0.389
+      oboscore: 0.38
     'Info: How many externally documented uses?': 5
     'Info: How many ontologies use it?': 0
     'Info: Logical consistency': true
@@ -587,8 +593,8 @@ ontologies:
     FP05 Scope:
       status: PASS
     FP06 Textual Definitions:
-      comment: ROBOT Report could not be generated
-      status: INFO
+      comment: 7101 missing definitions. See ROBOT Report for details.
+      status: WARN
     FP07 Relations:
       comment: 15 non-RO properties used.
       file: fp7
@@ -600,23 +606,27 @@ ontologies:
     FP11 Locus of Authority:
       status: PASS
     FP12 Naming Conventions:
-      comment: ROBOT Report could not be generated
-      status: INFO
+      status: PASS
     FP16 Maintenance:
       status: PASS
     FP20 Responsiveness:
       status: PASS
     ROBOT Report:
-      comment: ROBOT Report could not be generated.
-      status: INFO
+      comment: 17294 warnings, 0 info messages.
+      file: robot_report
+      results:
+        ERROR: 0
+        INFO: 0
+        WARN: 17294
+      status: WARN
   sha256_hash: a4f2cfc5f3911c38ce37c3078e318b30db3e23852bbcd5ff999438d0d6ef0464
   summary:
-    comment: 4 info messages
-    status: INFO
+    comment: 2 warnings
+    status: WARN
     summary_count:
       ERROR: 0
-      INFO: 4
-      WARN: 0
+      INFO: 1
+      WARN: 2
   version: http://purl.obolibrary.org/obo/mondo/releases/2023-02-06/mondo-base.owl
 - base_generated: true
   base_prefixes:
@@ -624,7 +634,7 @@ ontologies:
   - SEPIOALT
   - SEPIO
   changed: true
-  date: 2023-02-15 14:52:38.284836
+  date: 2023-02-15 15:33:34.177200
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 1195
@@ -749,3 +759,100 @@ ontologies:
       INFO: 0
       WARN: 0
   version: null
+- base_generated: false
+  base_prefixes:
+  - VBO
+  - VBOALT
+  - VBO
+  changed: true
+  date: 2023-02-15 15:35:51.222017
+  metrics:
+    'Axioms: Breakdown of axiom types':
+      AnnotationAssertion: 187779
+      Declaration: 18821
+      SubAnnotationPropertyOf: 3
+      SubClassOf: 33703
+    'Axioms: Number of axioms': 240306
+    'Entities: % of entities reused': 99.95
+    'Entities: Number of annotation properties': 31
+    'Entities: Number of classes': 18598
+    'Entities: Number of data properties': 0
+    'Entities: Number of individuals': 197
+    'Entities: Number of object properties': 1
+    'Entities: Number of unsatisfiable classes': 0
+    'Info: Breakdown of OWL class expressions used':
+      Class: 70856
+      ObjectHasValue: 15148
+    'Info: Does the ontology fall under OWL 2 DL?': false
+    'Info: Experimental OBO score':
+      _dashboard: 0.889
+      _formula: (3*impact+2*dashboard)/5
+      _impact: 0.0
+      _impact_external: 0
+      _reuse: 1.0
+      oboscore: 0.356
+    'Info: How many externally documented uses?': 0
+    'Info: How many ontologies use it?': 0
+    'Info: Logical consistency': true
+    'Info: Syntax': RDF/XML Syntax
+    'Info: Usage of namespaces in axioms':
+      IAO: 26
+      NCBITaxon: 10131
+      RO: 15149
+      VBOALT: 54005
+      dc: 80278
+      obo: 60725
+      oboInOwl: 171960
+      owl: 1
+      prefix_unknown: 15345
+      rdfs: 18577
+      xsd: 31969
+    'Info: Which ontologies use it?': []
+  mirror_from: http://purl.obolibrary.org/obo/vbo/vbo-base.owl
+  namespace: vbo
+  results:
+    FP01 Open:
+      status: PASS
+    FP02 Common Format:
+      status: PASS
+    FP03 URIs:
+      status: PASS
+    FP04 Versioning:
+      status: PASS
+    FP05 Scope:
+      status: PASS
+    FP06 Textual Definitions:
+      comment: 18544 missing definitions. See ROBOT Report for details.
+      status: WARN
+    FP07 Relations:
+      status: PASS
+    FP08 Documented:
+      status: PASS
+    FP09 Plurality of Users:
+      comment: Missing usages
+      status: ERROR
+    FP11 Locus of Authority:
+      status: PASS
+    FP12 Naming Conventions:
+      status: PASS
+    FP16 Maintenance:
+      status: PASS
+    FP20 Responsiveness:
+      status: PASS
+    ROBOT Report:
+      comment: 31712 warnings, 1 info messages.
+      file: robot_report
+      results:
+        ERROR: 0
+        INFO: 1
+        WARN: 31712
+      status: WARN
+  sha256_hash: 074f66fdbc32c2c819c23edc350349c2833b28bbbbe94c00d58389c872834edd
+  summary:
+    comment: 1 errors
+    status: ERROR
+    summary_count:
+      ERROR: 1
+      INFO: 0
+      WARN: 2
+  version: http://purl.obolibrary.org/obo/vbo/releases/2023-02-06/vbo-base.owl
