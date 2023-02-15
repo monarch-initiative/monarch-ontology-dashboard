@@ -1,0 +1,112 @@
+base_generated: false
+base_prefixes:
+- MAXO
+- MAXOALT
+- MAXO
+changed: true
+date: 2023-02-15 10:06:26.149052
+metrics:
+  'Axioms: Breakdown of axiom types':
+    AnnotationAssertion: 10773
+    Declaration: 1989
+    EquivalentClasses: 584
+    SubClassOf: 1167
+  'Axioms: Number of axioms': 14513
+  'Entities: % of entities reused': 27.68
+  'Entities: Number of annotation properties': 21
+  'Entities: Number of classes': 1965
+  'Entities: Number of data properties': 0
+  'Entities: Number of individuals': 0
+  'Entities: Number of object properties': 8
+  'Entities: Number of unsatisfiable classes': 0
+  'Info: Breakdown of OWL class expressions used':
+    Class: 6184
+    ObjectIntersectionOf: 717
+    ObjectSomeValuesFrom: 1151
+  'Info: Does the ontology fall under OWL 2 DL?': false
+  'Info: Experimental OBO score':
+    _dashboard: 0.727
+    _formula: (1*impact+1*dashboard)/2
+    _impact: 0.4
+    _impact_external: 0
+    _reuse: 0.277
+    oboscore: 0.564
+  'Info: How many externally documented uses?': 0
+  'Info: How many ontologies use it?': 2
+  'Info: Logical consistency': true
+  'Info: Syntax': RDF/XML Syntax
+  'Info: Usage of namespaces in axioms':
+    BFO: 342
+    CHEBI: 602
+    FOODON: 98
+    GO: 1
+    HP: 92
+    IAO: 1426
+    MAXO: 5090
+    MAXOALT: 1
+    NBO: 18
+    OBI: 18
+    PATO: 1
+    PR: 31
+    RO: 573
+    UBERON: 477
+    dc: 1
+    dc11: 1389
+    oboInOwl: 6857
+    owl: 53
+    rdfs: 1568
+  'Info: Which ontologies use it?':
+  - ecto
+  - mondo
+mirror_from: http://purl.obolibrary.org/obo/maxo/maxo-base.owl
+namespace: maxo
+results:
+  FP01 Open:
+    status: PASS
+  FP02 Common Format:
+    status: PASS
+  FP03 URIs:
+    status: PASS
+  FP04 Versioning:
+    status: PASS
+  FP05 Scope:
+    status: PASS
+  FP06 Textual Definitions:
+    comment: 4 multiple definitions. 18 missing definitions. See ROBOT Report for
+      details.
+    status: ERROR
+  FP07 Relations:
+    comment: 4 non-RO properties used.
+    file: fp7
+    status: INFO
+  FP08 Documented:
+    status: PASS
+  FP09 Plurality of Users:
+    comment: Missing usages
+    status: ERROR
+  FP11 Locus of Authority:
+    status: PASS
+  FP12 Naming Conventions:
+    comment: 76 multiple labels. See ROBOT Report for details.
+    status: ERROR
+  FP16 Maintenance:
+    status: PASS
+  FP20 Responsiveness:
+    status: PASS
+  ROBOT Report:
+    comment: 81 errors, 986 warnings, 440 info messages.
+    file: robot_report
+    results:
+      ERROR: 81
+      INFO: 440
+      WARN: 986
+    status: ERROR
+sha256_hash: fa4299ec91a54d2281a66a4bf5efc46c24e8a0de879ab34e55e123ee70d4a6cd
+summary:
+  comment: 4 errors
+  status: ERROR
+  summary_count:
+    ERROR: 4
+    INFO: 1
+    WARN: 0
+version: http://purl.obolibrary.org/obo/maxo/releases/2022-12-19/maxo-base.owl
