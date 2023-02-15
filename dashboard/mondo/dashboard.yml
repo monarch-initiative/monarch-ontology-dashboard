@@ -1,0 +1,129 @@
+base_generated: false
+base_prefixes:
+- MONDO
+- MONDOALT
+- MONDO
+changed: true
+date: 2023-02-15 10:06:00.110770
+metrics:
+  'Axioms: Breakdown of axiom types':
+    AnnotationAssertion: 375707
+    Declaration: 32165
+    DisjointClasses: 78
+    EquivalentClasses: 7768
+    SubAnnotationPropertyOf: 38
+    SubClassOf: 46685
+    SubObjectPropertyOf: 4
+    SubPropertyChainOf: 7
+    SymmetricObjectProperty: 1
+  'Axioms: Number of axioms': 462453
+  'Entities: % of entities reused': 19.06
+  'Entities: Number of annotation properties': 88
+  'Entities: Number of classes': 32047
+  'Entities: Number of data properties': 0
+  'Entities: Number of individuals': 0
+  'Entities: Number of object properties': 37
+  'Entities: Number of unsatisfiable classes': 0
+  'Info: Breakdown of OWL class expressions used':
+    Class: 149380
+    ObjectIntersectionOf: 7754
+    ObjectSomeValuesFrom: 18663
+    ObjectUnionOf: 14
+  'Info: Does the ontology fall under OWL 2 DL?': false
+  'Info: Experimental OBO score':
+    _dashboard: 0.949
+    _formula: (1*impact+1*dashboard)/2
+    _impact: 0.0
+    _impact_external: 0.5
+    _reuse: 0.191
+    oboscore: 0.474
+  'Info: How many externally documented uses?': 5
+  'Info: How many ontologies use it?': 0
+  'Info: Logical consistency': true
+  'Info: Syntax': RDF/XML Syntax
+  'Info: Usage of namespaces in axioms':
+    BFO: 56
+    CARO: 103
+    CHEBI: 130
+    CL: 777
+    ECTO: 101
+    ENVO: 42
+    FOODON: 2
+    GO: 1044
+    HP: 2155
+    HsapDv: 9
+    IAO: 27014
+    MAXO: 10
+    MF: 20
+    MFOMD: 13
+    MONDO: 127269
+    MONDOALT: 3218
+    NBO: 13
+    NCBITaxon: 1743
+    NCIT: 81
+    OBA: 2
+    PATO: 347
+    PO: 2
+    RO: 17491
+    SO: 50
+    UBERON: 4723
+    dc: 4
+    dc11: 115
+    obo: 815
+    oboInOwl: 509200
+    owl: 3194
+    prefix_unknown: 10347
+    rdf: 3
+    rdfs: 30144
+    skos: 73130
+    xsd: 33594
+  'Info: Which ontologies use it?': []
+mirror_from: http://purl.obolibrary.org/obo/mondo/mondo-base.owl
+namespace: mondo
+results:
+  FP01 Open:
+    status: PASS
+  FP02 Common Format:
+    status: PASS
+  FP03 URIs:
+    status: PASS
+  FP04 Versioning:
+    status: PASS
+  FP05 Scope:
+    status: PASS
+  FP06 Textual Definitions:
+    comment: 7101 missing definitions. See ROBOT Report for details.
+    status: WARN
+  FP07 Relations:
+    comment: 15 non-RO properties used.
+    file: fp7
+    status: INFO
+  FP08 Documented:
+    status: PASS
+  FP09 Plurality of Users:
+    status: PASS
+  FP11 Locus of Authority:
+    status: PASS
+  FP12 Naming Conventions:
+    status: PASS
+  FP16 Maintenance:
+    status: PASS
+  FP20 Responsiveness:
+    status: PASS
+  ROBOT Report:
+    comment: 18015 warnings, 0 info messages.
+    file: robot_report
+    results:
+      ERROR: 0
+      INFO: 0
+      WARN: 18015
+    status: WARN
+sha256_hash: a4f2cfc5f3911c38ce37c3078e318b30db3e23852bbcd5ff999438d0d6ef0464
+summary:
+  comment: 2 warnings
+  status: WARN
+  summary_count:
+    ERROR: 0
+    INFO: 1
+    WARN: 2
+version: http://purl.obolibrary.org/obo/mondo/releases/2023-02-06/mondo-base.owl
