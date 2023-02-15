@@ -12,7 +12,6 @@ prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
   custom:
-    - "WARN\tfile:./sparql/nolabels-violation.sparql"
     - "WARN\tfile:./sparql/pmid-not-dbxref-violation.sparql"
     - "ERROR\tfile:./sparql/obsolete-replaced_by-violation.sparql"
     - "ERROR\tfile:./sparql/orcid-contributor-violation.sparql"
