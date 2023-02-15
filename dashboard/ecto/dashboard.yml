@@ -4,7 +4,7 @@ base_prefixes:
 - ECTOALT
 - ECTO
 changed: true
-date: 2023-02-15 10:06:15.243984
+date: 2023-02-15 10:29:38.941213
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 8675

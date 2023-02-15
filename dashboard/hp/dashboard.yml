@@ -1,0 +1,116 @@
+base_generated: false
+base_prefixes:
+- HP
+- HPALT
+- HP
+changed: true
+date: 2023-02-15 10:29:25.057960
+metrics:
+  'Axioms: Breakdown of axiom types':
+    AnnotationAssertion: 112828
+    Declaration: 19437
+    EquivalentClasses: 6196
+    SubAnnotationPropertyOf: 8
+    SubClassOf: 21193
+    SubPropertyChainOf: 1
+  'Axioms: Number of axioms': 159663
+  'Entities: % of entities reused': 11.26
+  'Entities: Number of annotation properties': 49
+  'Entities: Number of classes': 19375
+  'Entities: Number of data properties': 0
+  'Entities: Number of individuals': 0
+  'Entities: Number of object properties': 16
+  'Entities: Number of unsatisfiable classes': 0
+  'Info: Breakdown of OWL class expressions used':
+    Class: 88806
+    ObjectIntersectionOf: 8054
+    ObjectSomeValuesFrom: 20849
+    ObjectUnionOf: 48
+  'Info: Does the ontology fall under OWL 2 DL?': false
+  'Info: Experimental OBO score':
+    _dashboard: 0.8
+    _formula: (1*impact+1*dashboard)/2
+    _impact: 0.4
+    _impact_external: 0.25
+    _reuse: 0.113
+    oboscore: 0.6
+  'Info: How many externally documented uses?': 1
+  'Info: How many ontologies use it?': 2
+  'Info: Logical consistency': true
+  'Info: Syntax': RDF/XML Syntax
+  'Info: Usage of namespaces in axioms':
+    BFO: 8019
+    BSPO: 4
+    CHEBI: 748
+    CL: 393
+    GO: 819
+    HP: 66237
+    HPALT: 30
+    HsapDv: 20
+    IAO: 14511
+    MPATH: 293
+    NBO: 111
+    PATO: 12571
+    PR: 123
+    RO: 12518
+    UBERON: 7493
+    dc: 3
+    dc11: 4230
+    oboInOwl: 102327
+    owl: 372
+    rdf: 12
+    rdfs: 21011
+  'Info: Which ontologies use it?':
+  - maxo
+  - mondo
+mirror_from: http://purl.obolibrary.org/obo/hp/hp-base.owl
+namespace: hp
+results:
+  FP01 Open:
+    comment: Registry license 'https://hpo.jax.org/app/license' is not a valid open
+      license.
+    status: WARN
+  FP02 Common Format:
+    status: PASS
+  FP03 URIs:
+    status: PASS
+  FP04 Versioning:
+    comment: Version IRI does not resolve
+    status: ERROR
+  FP05 Scope:
+    status: PASS
+  FP06 Textual Definitions:
+    comment: 2654 missing definitions. See ROBOT Report for details.
+    status: WARN
+  FP07 Relations:
+    status: PASS
+  FP08 Documented:
+    comment: Homepage URL (http://www.human-phenotype-ontology.org/) does not resolve
+    status: ERROR
+  FP09 Plurality of Users:
+    status: PASS
+  FP11 Locus of Authority:
+    status: PASS
+  FP12 Naming Conventions:
+    status: PASS
+  FP16 Maintenance:
+    status: PASS
+  FP20 Responsiveness:
+    status: PASS
+  ROBOT Report:
+    comment: 8954 warnings, 1 info messages.
+    file: robot_report
+    results:
+      ERROR: 0
+      INFO: 1
+      WARN: 8954
+    status: WARN
+sha256_hash: 80dd0ccc515d657977dfa8b55d511e6f559edba8cb58bdb9f494bb439d238098
+summary:
+  comment: 2 errors
+  status: ERROR
+  summary_count:
+    ERROR: 2
+    INFO: 0
+    WARN: 3
+version: http://purl.obolibrary.org/obo/hp/releases/2023-01-27/hp-base.owl
