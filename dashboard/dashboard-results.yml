@@ -1,22 +1,22 @@
 oboscore:
   dashboard_score_max_impact:
-    dashboard: 1
-    impact: 1
+    dashboard: 2
+    impact: 3
     impact_external: 3
     no_base: 5
     overall_error: 20
     overall_info: 5
     overall_warning: 10
     report_errors: 10
-    report_info: 3
+    report_info: 2
     report_warning: 5
     reuse: 1
   dashboard_score_weights:
-    dashboard: 1
-    impact: 1
+    dashboard: 2
+    impact: 3
     impact_external: 3
     no_base: 5
-    overall_error: 5
+    overall_error: 1
     overall_info: 0.1
     overall_warning: 0.5
     report_errors: 0.05
@@ -30,7 +30,7 @@ ontologies:
   - ECTOALT
   - ECTO
   changed: true
-  date: 2023-02-15 10:29:38.941213
+  date: 2023-02-15 14:32:51.297618
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 8675
@@ -52,11 +52,11 @@ ontologies:
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
       _dashboard: 0.844
-      _formula: (1*impact+1*dashboard)/2
+      _formula: (3*impact+2*dashboard)/5
       _impact: 0.2
       _impact_external: 0
       _reuse: 0.487
-      oboscore: 0.522
+      oboscore: 0.458
     'Info: How many externally documented uses?': 0
     'Info: How many ontologies use it?': 1
     'Info: Logical consistency': true
@@ -116,12 +116,12 @@ ontologies:
     FP20 Responsiveness:
       status: PASS
     ROBOT Report:
-      comment: 4823 warnings, 2842 info messages.
+      comment: 1981 warnings, 2842 info messages.
       file: robot_report
       results:
         ERROR: 0
         INFO: 2842
-        WARN: 4823
+        WARN: 1981
       status: WARN
   sha256_hash: 1bb8778e4bd74b4685135fecbacc6a4aba17b7fa7d1d2f98565a9c72bfc2dcaf
   summary:
@@ -138,7 +138,7 @@ ontologies:
   - HPALT
   - HP
   changed: true
-  date: 2023-02-15 10:29:25.057960
+  date: 2023-02-15 14:32:32.259395
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 112828
@@ -163,11 +163,11 @@ ontologies:
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
       _dashboard: 0.8
-      _formula: (1*impact+1*dashboard)/2
+      _formula: (3*impact+2*dashboard)/5
       _impact: 0.4
       _impact_external: 0.25
       _reuse: 0.113
-      oboscore: 0.6
+      oboscore: 0.56
     'Info: How many externally documented uses?': 1
     'Info: How many ontologies use it?': 2
     'Info: Logical consistency': true
@@ -232,12 +232,12 @@ ontologies:
     FP20 Responsiveness:
       status: PASS
     ROBOT Report:
-      comment: 8954 warnings, 1 info messages.
+      comment: 3682 warnings, 1 info messages.
       file: robot_report
       results:
         ERROR: 0
         INFO: 1
-        WARN: 8954
+        WARN: 3682
       status: WARN
   sha256_hash: 80dd0ccc515d657977dfa8b55d511e6f559edba8cb58bdb9f494bb439d238098
   summary:
@@ -254,7 +254,7 @@ ontologies:
   - MAXOALT
   - MAXO
   changed: true
-  date: 2023-02-15 10:29:49.734689
+  date: 2023-02-15 14:33:06.130648
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 10773
@@ -276,11 +276,11 @@ ontologies:
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
       _dashboard: 0.727
-      _formula: (1*impact+1*dashboard)/2
+      _formula: (3*impact+2*dashboard)/5
       _impact: 0.4
       _impact_external: 0
       _reuse: 0.277
-      oboscore: 0.564
+      oboscore: 0.531
     'Info: How many externally documented uses?': 0
     'Info: How many ontologies use it?': 2
     'Info: Logical consistency': true
@@ -344,12 +344,12 @@ ontologies:
     FP20 Responsiveness:
       status: PASS
     ROBOT Report:
-      comment: 81 errors, 986 warnings, 440 info messages.
+      comment: 81 errors, 53 warnings, 440 info messages.
       file: robot_report
       results:
         ERROR: 81
         INFO: 440
-        WARN: 986
+        WARN: 53
       status: ERROR
   sha256_hash: fa4299ec91a54d2281a66a4bf5efc46c24e8a0de879ab34e55e123ee70d4a6cd
   summary:
@@ -366,7 +366,7 @@ ontologies:
   - MONDOALT
   - MONDO
   changed: true
-  date: 2023-02-15 10:28:08.883493
+  date: 2023-02-15 14:30:56.541212
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 375707
@@ -393,12 +393,12 @@ ontologies:
       ObjectUnionOf: 14
     'Info: Does the ontology fall under OWL 2 DL?': false
     'Info: Experimental OBO score':
-      _dashboard: 0.949
-      _formula: (1*impact+1*dashboard)/2
+      _dashboard: 0.973
+      _formula: (3*impact+2*dashboard)/5
       _impact: 0.0
       _impact_external: 0.5
       _reuse: 0.191
-      oboscore: 0.474
+      oboscore: 0.389
     'Info: How many externally documented uses?': 5
     'Info: How many ontologies use it?': 0
     'Info: Logical consistency': true
@@ -454,8 +454,8 @@ ontologies:
     FP05 Scope:
       status: PASS
     FP06 Textual Definitions:
-      comment: 7101 missing definitions. See ROBOT Report for details.
-      status: WARN
+      comment: ROBOT Report could not be generated
+      status: INFO
     FP07 Relations:
       comment: 15 non-RO properties used.
       file: fp7
@@ -467,34 +467,30 @@ ontologies:
     FP11 Locus of Authority:
       status: PASS
     FP12 Naming Conventions:
-      status: PASS
+      comment: ROBOT Report could not be generated
+      status: INFO
     FP16 Maintenance:
       status: PASS
     FP20 Responsiveness:
       status: PASS
     ROBOT Report:
-      comment: 18015 warnings, 0 info messages.
-      file: robot_report
-      results:
-        ERROR: 0
-        INFO: 0
-        WARN: 18015
-      status: WARN
+      comment: ROBOT Report could not be generated.
+      status: INFO
   sha256_hash: a4f2cfc5f3911c38ce37c3078e318b30db3e23852bbcd5ff999438d0d6ef0464
   summary:
-    comment: 2 warnings
-    status: WARN
+    comment: 4 info messages
+    status: INFO
     summary_count:
       ERROR: 0
-      INFO: 1
-      WARN: 2
+      INFO: 4
+      WARN: 0
   version: http://purl.obolibrary.org/obo/mondo/releases/2023-02-06/mondo-base.owl
 - base_generated: true
   base_prefixes:
   - TMP
   - TMPALT
   changed: true
-  date: 2023-02-15 10:23:33.470970
+  date: 2023-02-15 14:26:06.445694
   metrics:
     'Axioms: Breakdown of axiom types':
       AnnotationAssertion: 2
@@ -514,11 +510,11 @@ ontologies:
     'Info: Does the ontology fall under OWL 2 DL?': true
     'Info: Experimental OBO score':
       _dashboard: 0.282
-      _formula: (1*impact+1*dashboard)/2
+      _formula: (3*impact+2*dashboard)/5
       _impact: 0.0
       _impact_external: 0
       _reuse: 1.0
-      oboscore: 0.141
+      oboscore: 0.113
     'Info: How many externally documented uses?': 0
     'Info: How many ontologies use it?': 0
     'Info: Logical consistency': true
@@ -571,12 +567,12 @@ ontologies:
       comment: Missing tracker and usages
       status: ERROR
     ROBOT Report:
-      comment: 5 warnings, 1 info messages.
+      comment: 3 warnings, 1 info messages.
       file: robot_report
       results:
         ERROR: 0
         INFO: 1
-        WARN: 5
+        WARN: 3
       status: WARN
   sha256_hash: 60af01fd21e71e4e0a1c24178cfa75c445a624459af735e84db630159154bd69
   summary:
