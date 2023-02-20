@@ -9,6 +9,32 @@ ontologies:
     - id: sepio
     - id: geno
     - id: vbo
+    - id: oba
+    - id: monochrom
+      mirror_from: https://raw.githubusercontent.com/monarch-initiative/monochrom/master/chr.owl
+      title: "Chromosom Ontology"
+      contact:
+        email: sabrina@tislab.org
+        label: Sabrina Toro
+        orcid: 0000-0002-4142-7153
+        github: sabrinatoro
+      description: monochrom (abbreviation CHR) is an automatically derived ontology of chrosomosomes are chromosome parts.
+      domain: anatomy and development
+      homepage: https://github.com/monarch-initiative/monochrom
+      products:
+        - id: chr.owl
+        - id: chr.obo
+        - id: chr.json
+      dependencies:
+        - id: ro
+        - id: so
+        - id: go
+        - id: geno
+        - id: ncbitaxon
+      tracker: https://github.com/monarch-initiative/monochrom/issues
+      license:
+        url: https://creativecommons.org/publicdomain/zero/1.0/
+        label: CC0 1.0
 prefer_base: True
 profile:
   baseprofile: "https://raw.githubusercontent.com/ontodev/robot/master/robot-core/src/main/resources/report_profile.txt"
