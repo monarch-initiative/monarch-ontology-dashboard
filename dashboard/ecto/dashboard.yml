@@ -4,7 +4,7 @@ base_prefixes:
 - ECTOALT
 - ECTO
 changed: true
-date: 2023-02-15 15:33:18.034016
+date: 2023-02-20 16:04:54.029636
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 8675
@@ -25,12 +25,12 @@ metrics:
     ObjectSomeValuesFrom: 3257
   'Info: Does the ontology fall under OWL 2 DL?': false
   'Info: Experimental OBO score':
-    _dashboard: 0.844
+    _dashboard: 0.911
     _formula: (3*impact+2*dashboard)/5
-    _impact: 0.143
+    _impact: 0.111
     _impact_external: 0
     _reuse: 0.487
-    oboscore: 0.423
+    oboscore: 0.431
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 1
   'Info: Logical consistency': true
@@ -68,8 +68,7 @@ results:
   FP03 URIs:
     status: PASS
   FP04 Versioning:
-    comment: Version IRI does not resolve
-    status: ERROR
+    status: PASS
   FP05 Scope:
     status: PASS
   FP06 Textual Definitions:
@@ -99,10 +98,10 @@ results:
     status: WARN
 sha256_hash: 1bb8778e4bd74b4685135fecbacc6a4aba17b7fa7d1d2f98565a9c72bfc2dcaf
 summary:
-  comment: 2 errors
+  comment: 1 errors
   status: ERROR
   summary_count:
-    ERROR: 2
+    ERROR: 1
     INFO: 0
     WARN: 1
 version: http://purl.obolibrary.org/obo/ecto/releases/2023-02-14/ecto-base.owl
