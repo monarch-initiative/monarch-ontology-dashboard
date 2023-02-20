@@ -4,7 +4,7 @@ base_prefixes:
 - GENOALT
 - GENO
 changed: true
-date: 2023-02-15 15:33:39.954935
+date: 2023-02-20 16:05:25.499251
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1808
@@ -12,7 +12,7 @@ metrics:
     ClassAssertion: 2
     DataPropertyDomain: 2
     DataPropertyRange: 3
-    Declaration: 564
+    Declaration: 565
     DisjointClasses: 6
     EquivalentClasses: 33
     InverseObjectProperties: 20
@@ -23,7 +23,7 @@ metrics:
     SubPropertyChainOf: 25
     SymmetricObjectProperty: 3
     TransitiveObjectProperty: 6
-  'Axioms: Number of axioms': 2996
+  'Axioms: Number of axioms': 2997
   'Entities: % of entities reused': 38.47
   'Entities: Number of annotation properties': 32
   'Entities: Number of classes': 399
@@ -41,7 +41,7 @@ metrics:
     ObjectIntersectionOf: 33
     ObjectSomeValuesFrom: 116
     ObjectUnionOf: 15
-  'Info: Does the ontology fall under OWL 2 DL?': false
+  'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
     _dashboard: 0.727
     _formula: (3*impact+2*dashboard)/5
@@ -76,7 +76,7 @@ metrics:
     WBPhenotype: 2
     ZP: 10
     dc: 6
-    dc11: 2
+    dc11: 3
     oboInOwl: 53
     owl: 51
     prefix_unknown: 48
@@ -127,7 +127,7 @@ results:
       INFO: 29
       WARN: 95
     status: ERROR
-sha256_hash: ce548a49923e2fbf2fe41b58e9aff19317cf37efa2206c4c6e92508287eef1bb
+sha256_hash: 211e00bd5c669d43413d883e793497ad20487d8be490b8fcaacc25efaf6fafd3
 summary:
   comment: 4 errors
   status: ERROR
@@ -135,4 +135,4 @@ summary:
     ERROR: 4
     INFO: 1
     WARN: 0
-version: http://purl.obolibrary.org/obo/geno/releases/2022-08-10/geno-base.owl
+version: http://purl.obolibrary.org/obo/geno/releases/2023-02-19/geno-base.owl

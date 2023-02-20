@@ -4,7 +4,7 @@ base_prefixes:
 - MONDOALT
 - MONDO
 changed: true
-date: 2023-02-15 15:31:45.192357
+date: 2023-02-20 16:02:24.092656
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 375707
@@ -33,12 +33,12 @@ metrics:
   'Info: Experimental OBO score':
     _dashboard: 0.949
     _formula: (3*impact+2*dashboard)/5
-    _impact: 0.0
+    _impact: 0.111
     _impact_external: 0.5
     _reuse: 0.191
-    oboscore: 0.38
+    oboscore: 0.446
   'Info: How many externally documented uses?': 5
-  'Info: How many ontologies use it?': 0
+  'Info: How many ontologies use it?': 1
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
@@ -77,7 +77,8 @@ metrics:
     rdfs: 30144
     skos: 73130
     xsd: 33594
-  'Info: Which ontologies use it?': []
+  'Info: Which ontologies use it?':
+  - oba
 mirror_from: http://purl.obolibrary.org/obo/mondo/mondo-base.owl
 namespace: mondo
 results:
