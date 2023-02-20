@@ -10,7 +10,7 @@ ontologies:
     - id: geno
     - id: vbo
     - id: oba
-    - id: monochrom
+    - id: chr
       mirror_from: https://raw.githubusercontent.com/monarch-initiative/monochrom/master/chr.owl
       title: "Chromosom Ontology"
       contact:
