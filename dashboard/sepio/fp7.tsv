@@ -1,5 +1,7 @@
 IRI	Label	Issue
 http://purl.obolibrary.org/obo/SEPIO_0000109	expresses	shares label with http://purl.obolibrary.org/obo/RO_0002292
+http://purl.obolibrary.org/obo/IAO_0000136	is_about	not an RO property
+http://purl.obolibrary.org/obo/OBI_0000999	obsolete_has_category_label	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000006	has_evidence_line	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000007	has_supporting_evidence_line	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000008	has_disputing_evidence_line	not an RO property
@@ -35,7 +37,7 @@ http://purl.obolibrary.org/obo/SEPIO_0000150	has_contributor	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000151	validated_by	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000152	obsolete_evidence_assessed_by	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000159	qualified_contribution	not an RO property
-http://purl.obolibrary.org/obo/SEPIO_0000167	confidence_level	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000167	has_confidence_level	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000169	performed_for	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000178	is_described_by	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000183	evidence_direction	not an RO property
@@ -49,14 +51,28 @@ http://purl.obolibrary.org/obo/SEPIO_0000387	created_by	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000388	has_subject	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000389	has_predicate	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000390	has_object	not an RO property
-http://purl.obolibrary.org/obo/SEPIO_0000398	has_evidence_type	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000398	has_evidence_of_type	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000406	exploratoryobjectproperty	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000407	specified_creation_of	not an RO property
-http://purl.obolibrary.org/obo/SEPIO_0000415	evidence_item_quality	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000415	information_quality	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000427	is_evidence_line_for	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000437	provided_by	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000438	has_supporting_evidence_from_source	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000439	has_disputing_evidence_from_source	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000440	has_supporting_evidence	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000441	has_disputing_evidence	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000442	reference	not an RO property
+http://purl.org/dc/terms/source	source	not an RO property
+http://purl.org/oban/association_has_object	association has object	not an RO property
+http://purl.org/oban/association_has_predicate	association has predicate	not an RO property
+http://purl.org/oban/association_has_subject	association has subject	not an RO property
+http://purl.org/pav/authoredBy	authored by	not an RO property
+http://purl.org/pav/createdBy	created by	not an RO property
+http://purl.org/pav/curatedBy	curated by	not an RO property
+http://purl.org/pav/derivedFrom	derived from	not an RO property
+http://purl.org/pav/importedFrom	imported from	not an RO property
+http://purl.org/pav/retrievedFrom	retrieved from	not an RO property
+http://purl.obolibrary.org/obo/ERO_0000480	has_url	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000021	obsolete_date_created	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000036	date_modified	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000040	date_evaluated	not an RO property
@@ -70,7 +86,7 @@ http://purl.obolibrary.org/obo/SEPIO_0000161	end_date	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000162	obsolete_date_curated	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000164	date_updated	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000165	date_validated	not an RO property
-http://purl.obolibrary.org/obo/SEPIO_0000168	confidence_score	not an RO property
+http://purl.obolibrary.org/obo/SEPIO_0000168	has_confidence_score	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000231	statement quantifier	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000346	statement qualifier	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000384	date_created_after	not an RO property
@@ -80,3 +96,11 @@ http://purl.obolibrary.org/obo/SEPIO_0000433	activity_location	not an RO propert
 http://purl.obolibrary.org/obo/SEPIO_0000434	exploratorydataproperty	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000435	obsoletedataproperty	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000436	date_created	not an RO property
+http://purl.obolibrary.org/obo/STATO_0000129	has_value	not an RO property
+http://purl.org/dc/elements/1.1/description	description	not an RO property
+http://purl.org/dc/terms/date	date	not an RO property
+http://purl.org/dc/terms/identifier	identifier	not an RO property
+http://purl.org/dc/terms/title	title	not an RO property
+http://purl.org/ontology/bibo/doi	digital object identifier (doi)	not an RO property
+http://purl.org/pav/version	version	not an RO property
+http://xmlns.com/foaf/0.1/name	name	not an RO property
