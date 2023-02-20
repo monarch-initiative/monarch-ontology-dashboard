@@ -4,7 +4,7 @@ base_prefixes:
 - MONDOALT
 - MONDO
 changed: true
-date: 2023-02-20 16:02:24.092656
+date: 2023-02-20 18:42:04.660389
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 375707
@@ -76,7 +76,7 @@ metrics:
     rdf: 3
     rdfs: 30144
     skos: 73130
-    xsd: 33594
+    xsd: 258635
   'Info: Which ontologies use it?':
   - oba
 mirror_from: http://purl.obolibrary.org/obo/mondo/mondo-base.owl

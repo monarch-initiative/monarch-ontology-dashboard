@@ -4,7 +4,7 @@ base_prefixes:
 - GENOALT
 - GENO
 changed: true
-date: 2023-02-20 16:05:25.499251
+date: 2023-02-20 18:44:01.521580
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 1808
@@ -80,7 +80,7 @@ metrics:
     oboInOwl: 53
     owl: 51
     prefix_unknown: 48
-    rdf: 25
+    rdf: 28
     rdfs: 739
     xsd: 18
   'Info: Which ontologies use it?': []

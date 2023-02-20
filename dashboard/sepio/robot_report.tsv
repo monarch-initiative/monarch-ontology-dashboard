@@ -1,19 +1,11 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	missing_ontology_license	http://purl.obolibrary.org/obo/sepio.owl	dc:license	
-ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/sepio.owl	dc:title	
 ERROR	misused_obsolete_label	SEPIO:0000021	rdfs:label	obsolete_date_created@en
 ERROR	misused_obsolete_label	SEPIO:0000055	rdfs:label	obsolete_manual assertion process@en
 ERROR	misused_obsolete_label	SEPIO:0000056	rdfs:label	obsolete_automated assertion process@en
 ERROR	misused_obsolete_label	SEPIO:0000127	rdfs:label	obsolete_study group@en
 ERROR	misused_obsolete_label	SEPIO:0000152	rdfs:label	obsolete_evidence_assessed_by@en
 ERROR	misused_obsolete_label	SEPIO:0000162	rdfs:label	obsolete_date_curated@en
-ERROR	misused_obsolete_label	SEPIO:0000175	rdfs:label	obsolete_observation@en
-ERROR	misused_obsolete_label	SEPIO:0000180	rdfs:label	obsolete_evidence statement@en
-ERROR	misused_obsolete_label	SEPIO:0000181	rdfs:label	obsolete_evidence data@en
-ERROR	misused_obsolete_label	SEPIO:0000185	rdfs:label	obsolete_data table@en
 ERROR	misused_obsolete_label	SEPIO:0000232	rdfs:label	obsolete_has_quantifier@en
-ERROR	misused_obsolete_label	SEPIO:0000385	rdfs:label	obsolete_method@en
-ERROR	misused_obsolete_label	SEPIO:0000401	rdfs:label	obsolete_opinion@en
 ERROR	misused_obsolete_label	SEPIO:0000435	rdfs:label	ObsoleteDataProperty
 ERROR	multiple_definitions	SEPIO:0000437	IAO:0000115	A relationship between an information resource found in some information system, and the agent (person, organization, computational agent) who is responsible for sharing/providing it to that information system.
 ERROR	multiple_definitions	SEPIO:0000437	IAO:0000115	Note that this property connects a resource to an agent, not to some other information resource from which it came (e.g. another database or an API from which the resource in question was obtained).  Use the 'source' property to capture this type of relationship.
@@ -58,14 +50,12 @@ WARN	missing_definition	SEPIO:0000161	IAO:0000115
 WARN	missing_definition	SEPIO:0000162	IAO:0000115	
 WARN	missing_definition	SEPIO:0000164	IAO:0000115	
 WARN	missing_definition	SEPIO:0000184	IAO:0000115	
-WARN	missing_definition	SEPIO:0000185	IAO:0000115	
 WARN	missing_definition	SEPIO:0000188	IAO:0000115	
 WARN	missing_definition	SEPIO:0000232	IAO:0000115	
 WARN	missing_definition	SEPIO:0000258	IAO:0000115	
 WARN	missing_definition	SEPIO:0000337	IAO:0000115	
 WARN	missing_definition	SEPIO:0000376	IAO:0000115	
 WARN	missing_definition	SEPIO:0000384	IAO:0000115	
-WARN	missing_definition	SEPIO:0000385	IAO:0000115	
 WARN	missing_definition	SEPIO:0000386	IAO:0000115	
 WARN	missing_definition	SEPIO:0000406	IAO:0000115	
 WARN	missing_definition	SEPIO:0000419	IAO:0000115	

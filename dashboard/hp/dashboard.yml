@@ -4,7 +4,7 @@ base_prefixes:
 - HPALT
 - HP
 changed: true
-date: 2023-02-20 16:04:30.126309
+date: 2023-02-20 18:43:23.907311
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 112828
@@ -58,8 +58,9 @@ metrics:
     dc11: 4230
     oboInOwl: 102327
     owl: 372
-    rdf: 12
+    rdf: 12544
     rdfs: 21011
+    xsd: 7937
   'Info: Which ontologies use it?':
   - geno
   - maxo
