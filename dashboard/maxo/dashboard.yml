@@ -4,7 +4,7 @@ base_prefixes:
 - MAXOALT
 - MAXO
 changed: true
-date: 2023-02-22 19:08:57.644601
+date: 2023-02-23 10:20:19.968759
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 10850
