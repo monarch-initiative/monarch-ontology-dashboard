@@ -4,57 +4,57 @@ base_prefixes:
 - MAXOALT
 - MAXO
 changed: true
-date: 2023-02-23 10:20:19.968759
+date: 2023-03-01 06:08:19.215404
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 10850
-    Declaration: 2047
-    EquivalentClasses: 627
-    SubClassOf: 1170
-  'Axioms: Number of axioms': 14694
-  'Entities: % of entities reused': 27.7
+    AnnotationAssertion: 11122
+    Declaration: 2125
+    EquivalentClasses: 661
+    SubClassOf: 1190
+  'Axioms: Number of axioms': 15098
+  'Entities: % of entities reused': 28.05
   'Entities: Number of annotation properties': 21
-  'Entities: Number of classes': 2022
+  'Entities: Number of classes': 2100
   'Entities: Number of data properties': 0
   'Entities: Number of individuals': 0
   'Entities: Number of object properties': 8
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 6376
-    ObjectIntersectionOf: 760
-    ObjectSomeValuesFrom: 1237
+    Class: 6629
+    ObjectIntersectionOf: 821
+    ObjectSomeValuesFrom: 1311
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
-    _dashboard: 0.882
+    _dashboard: 0.816
     _formula: (3*impact+2*dashboard)/5
     _impact: 0.222
     _impact_external: 0
-    _reuse: 0.277
-    oboscore: 0.486
+    _reuse: 0.281
+    oboscore: 0.46
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 2
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
-    BFO: 385
-    CHEBI: 602
+    BFO: 392
+    CHEBI: 677
     COB: 2
     FOODON: 98
     HP: 92
-    IAO: 1480
-    MAXO: 5221
+    IAO: 1529
+    MAXO: 5405
     MAXOALT: 1
     NBO: 18
     OBI: 16
     PR: 31
-    RO: 616
-    UBERON: 540
+    RO: 656
+    UBERON: 561
     dc: 1
-    dc11: 1431
-    oboInOwl: 6833
-    owl: 53
-    rdf: 388
-    rdfs: 1571
+    dc11: 1478
+    oboInOwl: 6961
+    owl: 56
+    rdf: 393
+    rdfs: 1621
   'Info: Which ontologies use it?':
   - ecto
   - mondo
@@ -68,7 +68,8 @@ results:
   FP03 URIs:
     status: PASS
   FP04 Versioning:
-    status: PASS
+    comment: Version IRI does not resolve
+    status: ERROR
   FP05 Scope:
     status: PASS
   FP06 Textual Definitions:
@@ -92,19 +93,19 @@ results:
   FP20 Responsiveness:
     status: PASS
   ROBOT Report:
-    comment: 2 warnings, 476 info messages.
+    comment: 2 warnings, 504 info messages.
     file: robot_report
     results:
       ERROR: 0
-      INFO: 476
+      INFO: 504
       WARN: 2
     status: WARN
-sha256_hash: c0e46286cc31f2edda81fcd82fb87d946e5785c6f45007a4f0eb119add6426c6
+sha256_hash: 327db603550b2ffe589468b2e4f84ab4af500a9d4fd0a810a207f75a09aaf8f9
 summary:
-  comment: 1 errors
+  comment: 2 errors
   status: ERROR
   summary_count:
-    ERROR: 1
+    ERROR: 2
     INFO: 1
     WARN: 2
-version: http://purl.obolibrary.org/obo/maxo/releases/2023-02-19/maxo-base.owl
+version: http://purl.obolibrary.org/obo/maxo/releases/2023-02-23/maxo-base.owl

@@ -1,6 +1,7 @@
 Level	Rule Name	Subject	Property	Value
 WARN	missing_definition	obo:maxo#ABBREVIATION	IAO:0000115	
 WARN	missing_synonymtype_declaration	obo:maxo#ABBREVIATION	rdfs:subPropertyOf	
+INFO	missing_superclass	MAXO:0000019	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000058	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000107	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000108	rdfs:subClassOf	
@@ -197,4 +198,3 @@ INFO	missing_superclass	MAXO:0001103	rdfs:subClassOf
 INFO	missing_superclass	MAXO:0001104	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001105	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001106	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001107	rdfs:subClassOf	
