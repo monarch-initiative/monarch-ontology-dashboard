@@ -175,7 +175,7 @@ WARN	duplicate_exact_synonym	MONDO:0035735	oboInOwl:hasExactSynonym	AHA
 WARN	duplicate_exact_synonym	MONDO:0005632	oboInOwl:hasExactSynonym	ACS
 WARN	duplicate_exact_synonym	MONDO:0008708	oboInOwl:hasExactSynonym	ACS
 WARN	duplicate_exact_synonym	MONDO:0019796	oboInOwl:hasExactSynonym	ACS
-WARN	duplicate_label_synonym	MONDO:0000001	oboInOwl:hasExactSynonym	disease or disorder
+WARN	duplicate_label_synonym	MONDO:0000001	oboInOwl:hasExactSynonym	disease
 WARN	duplicate_label_synonym	MONDO:0000004	oboInOwl:hasExactSynonym	adrenocortical insufficiency
 WARN	duplicate_label_synonym	MONDO:0000030	oboInOwl:hasExactSynonym	sleep-related hypermotor epilepsy
 WARN	duplicate_label_synonym	MONDO:0000044	oboInOwl:hasExactSynonym	hereditary hypophosphatemic rickets

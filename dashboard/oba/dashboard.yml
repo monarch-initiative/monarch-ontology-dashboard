@@ -4,7 +4,7 @@ base_prefixes:
 - OBAALT
 - OBA
 changed: true
-date: 2023-02-23 10:23:17.880133
+date: 2023-04-01 06:16:14.795508
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 25158
@@ -27,12 +27,12 @@ metrics:
   'Info: Experimental OBO score':
     _dashboard: 0.889
     _formula: (3*impact+2*dashboard)/5
-    _impact: 0.111
+    _impact: 0.0
     _impact_external: 0
     _reuse: 0.343
-    oboscore: 0.422
+    oboscore: 0.356
   'Info: How many externally documented uses?': 0
-  'Info: How many ontologies use it?': 1
+  'Info: How many ontologies use it?': 0
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
@@ -57,8 +57,7 @@ metrics:
     owl: 68
     rdfs: 7909
     xsd: 15475
-  'Info: Which ontologies use it?':
-  - mondo
+  'Info: Which ontologies use it?': []
 mirror_from: http://purl.obolibrary.org/obo/oba/oba-base.owl
 namespace: oba
 results:
