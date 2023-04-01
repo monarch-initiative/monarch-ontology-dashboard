@@ -4,38 +4,38 @@ base_prefixes:
 - MONDOALT
 - MONDO
 changed: true
-date: 2023-02-23 10:18:34.753224
+date: 2023-04-01 06:08:16.106310
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 375707
-    Declaration: 32165
-    DisjointClasses: 78
-    EquivalentClasses: 7768
+    AnnotationAssertion: 378207
+    Declaration: 32215
+    DisjointClasses: 77
+    EquivalentClasses: 7797
     SubAnnotationPropertyOf: 38
-    SubClassOf: 46685
+    SubClassOf: 46130
     SubObjectPropertyOf: 4
     SubPropertyChainOf: 7
     SymmetricObjectProperty: 1
-  'Axioms: Number of axioms': 462453
-  'Entities: % of entities reused': 19.06
-  'Entities: Number of annotation properties': 88
-  'Entities: Number of classes': 32047
+  'Axioms: Number of axioms': 464476
+  'Entities: % of entities reused': 19.03
+  'Entities: Number of annotation properties': 89
+  'Entities: Number of classes': 32089
   'Entities: Number of data properties': 0
   'Entities: Number of individuals': 0
   'Entities: Number of object properties': 37
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 149380
-    ObjectIntersectionOf: 7754
-    ObjectSomeValuesFrom: 18663
+    Class: 148398
+    ObjectIntersectionOf: 7783
+    ObjectSomeValuesFrom: 18723
     ObjectUnionOf: 14
-  'Info: Does the ontology fall under OWL 2 DL?': false
+  'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
     _dashboard: 0.949
     _formula: (3*impact+2*dashboard)/5
     _impact: 0.111
     _impact_external: 0.5
-    _reuse: 0.191
+    _reuse: 0.19
     oboscore: 0.446
   'Info: How many externally documented uses?': 5
   'Info: How many ontologies use it?': 1
@@ -49,34 +49,33 @@ metrics:
     ECTO: 101
     ENVO: 42
     FOODON: 2
-    GO: 1044
+    GO: 1043
     HP: 2155
     HsapDv: 9
-    IAO: 27014
+    IAO: 27647
     MAXO: 10
     MF: 20
     MFOMD: 13
-    MONDO: 127269
-    MONDOALT: 3218
+    MONDO: 126350
+    MONDOALT: 3711
     NBO: 13
-    NCBITaxon: 1743
+    NCBITaxon: 1749
     NCIT: 81
-    OBA: 2
     PATO: 347
     PO: 2
-    RO: 17491
+    RO: 17492
     SO: 50
-    UBERON: 4723
-    dc: 4
-    dc11: 115
+    UBERON: 4714
+    dc: 6
+    dc11: 118
+    foaf: 1
     obo: 815
-    oboInOwl: 509200
-    owl: 3194
-    prefix_unknown: 10347
-    rdf: 3
-    rdfs: 30144
-    skos: 73130
-    xsd: 258635
+    oboInOwl: 510609
+    owl: 3209
+    prefix_unknown: 10348
+    rdf: 259345
+    rdfs: 30183
+    skos: 73754
   'Info: Which ontologies use it?':
   - oba
 mirror_from: http://purl.obolibrary.org/obo/mondo/mondo-base.owl
@@ -93,7 +92,7 @@ results:
   FP05 Scope:
     status: PASS
   FP06 Textual Definitions:
-    comment: 7101 missing definitions. See ROBOT Report for details.
+    comment: 7098 missing definitions. See ROBOT Report for details.
     status: WARN
   FP07 Relations:
     comment: 15 non-RO properties used.
@@ -112,14 +111,14 @@ results:
   FP20 Responsiveness:
     status: PASS
   ROBOT Report:
-    comment: 17294 warnings, 0 info messages.
+    comment: 17281 warnings, 0 info messages.
     file: robot_report
     results:
       ERROR: 0
       INFO: 0
-      WARN: 17294
+      WARN: 17281
     status: WARN
-sha256_hash: a4f2cfc5f3911c38ce37c3078e318b30db3e23852bbcd5ff999438d0d6ef0464
+sha256_hash: 3d2323855d3982a1f76541e27a52b2e0564998e48a3189f781b5a0d838514898
 summary:
   comment: 2 warnings
   status: WARN
@@ -127,4 +126,4 @@ summary:
     ERROR: 0
     INFO: 1
     WARN: 2
-version: http://purl.obolibrary.org/obo/mondo/releases/2023-02-06/mondo-base.owl
+version: http://purl.obolibrary.org/obo/mondo/releases/2023-03-01/mondo-base.owl
