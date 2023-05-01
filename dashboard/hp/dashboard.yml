@@ -4,63 +4,62 @@ base_prefixes:
 - HPALT
 - HP
 changed: true
-date: 2023-04-01 06:10:32.218910
+date: 2023-05-01 06:11:52.123786
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 112828
-    Declaration: 19437
-    EquivalentClasses: 6196
+    AnnotationAssertion: 114627
+    Declaration: 19703
+    EquivalentClasses: 6200
     SubAnnotationPropertyOf: 8
-    SubClassOf: 21193
+    SubClassOf: 21467
     SubPropertyChainOf: 1
-  'Axioms: Number of axioms': 159663
-  'Entities: % of entities reused': 11.26
-  'Entities: Number of annotation properties': 49
-  'Entities: Number of classes': 19375
+  'Axioms: Number of axioms': 162006
+  'Entities: % of entities reused': 11.09
+  'Entities: Number of annotation properties': 46
+  'Entities: Number of classes': 19642
   'Entities: Number of data properties': 0
   'Entities: Number of individuals': 0
   'Entities: Number of object properties': 16
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 88806
-    ObjectIntersectionOf: 8054
-    ObjectSomeValuesFrom: 20849
+    Class: 89637
+    ObjectIntersectionOf: 8058
+    ObjectSomeValuesFrom: 20861
     ObjectUnionOf: 48
-  'Info: Does the ontology fall under OWL 2 DL?': false
+  'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
     _dashboard: 0.867
     _formula: (3*impact+2*dashboard)/5
     _impact: 0.444
     _impact_external: 0.25
-    _reuse: 0.113
+    _reuse: 0.111
     oboscore: 0.613
   'Info: How many externally documented uses?': 1
   'Info: How many ontologies use it?': 4
   'Info: Logical consistency': true
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
-    BFO: 8019
+    BFO: 8023
     BSPO: 4
     CHEBI: 748
     CL: 393
     GO: 819
-    HP: 66237
-    HPALT: 30
+    HP: 67057
+    HPALT: 15
     HsapDv: 20
-    IAO: 14511
+    IAO: 14788
     MPATH: 293
     NBO: 111
-    PATO: 12571
+    PATO: 12579
     PR: 123
-    RO: 12518
-    UBERON: 7493
-    dc: 3
-    dc11: 4230
-    oboInOwl: 102327
-    owl: 372
-    rdf: 12544
-    rdfs: 21011
-    xsd: 7937
+    RO: 12526
+    UBERON: 7496
+    dc: 11042
+    dc11: 4482
+    oboInOwl: 92382
+    owl: 376
+    rdf: 5577
+    rdfs: 21314
   'Info: Which ontologies use it?':
   - geno
   - maxo
@@ -82,7 +81,7 @@ results:
   FP05 Scope:
     status: PASS
   FP06 Textual Definitions:
-    comment: 2654 missing definitions. See ROBOT Report for details.
+    comment: 2644 missing definitions. See ROBOT Report for details.
     status: WARN
   FP07 Relations:
     status: PASS
@@ -100,14 +99,14 @@ results:
   FP20 Responsiveness:
     status: PASS
   ROBOT Report:
-    comment: 3682 warnings, 1 info messages.
+    comment: 3654 warnings, 1 info messages.
     file: robot_report
     results:
       ERROR: 0
       INFO: 1
-      WARN: 3682
+      WARN: 3654
     status: WARN
-sha256_hash: 80dd0ccc515d657977dfa8b55d511e6f559edba8cb58bdb9f494bb439d238098
+sha256_hash: a0fbf625bc545d55b527e02ce99b21dc6ad1adbadb9b62fe31c6760f7147b1d9
 summary:
   comment: 1 errors
   status: ERROR
@@ -115,4 +114,4 @@ summary:
     ERROR: 1
     INFO: 0
     WARN: 3
-version: http://purl.obolibrary.org/obo/hp/releases/2023-01-27/hp-base.owl
+version: http://purl.obolibrary.org/obo/hp/releases/2023-04-05/hp-base.owl

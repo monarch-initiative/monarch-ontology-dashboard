@@ -143,12 +143,12 @@ WARN	duplicate_exact_synonym	MONDO:0008963	oboInOwl:hasExactSynonym	CHS
 WARN	duplicate_exact_synonym	MONDO:0100094	oboInOwl:hasExactSynonym	CHS
 WARN	duplicate_exact_synonym	MONDO:0010600	oboInOwl:hasExactSynonym	CGD
 WARN	duplicate_exact_synonym	MONDO:0018305	oboInOwl:hasExactSynonym	CGD
+WARN	duplicate_exact_synonym	MONDO:0009711	oboInOwl:hasExactSynonym	CFTDM
+WARN	duplicate_exact_synonym	MONDO:0800341	oboInOwl:hasExactSynonym	CFTDM
 WARN	duplicate_exact_synonym	MONDO:0007363	oboInOwl:hasExactSynonym	CCA
 WARN	duplicate_exact_synonym	MONDO:0019087	oboInOwl:hasExactSynonym	CCA
 WARN	duplicate_exact_synonym	MONDO:0011184	oboInOwl:hasExactSynonym	CAS
 WARN	duplicate_exact_synonym	MONDO:0018922	oboInOwl:hasExactSynonym	CAS
-WARN	duplicate_exact_synonym	MONDO:0018247	oboInOwl:hasExactSynonym	CADDS
-WARN	duplicate_exact_synonym	MONDO:0800316	oboInOwl:hasExactSynonym	CADDS
 WARN	duplicate_exact_synonym	MONDO:0005010	oboInOwl:hasExactSynonym	CAD
 WARN	duplicate_exact_synonym	MONDO:0018922	oboInOwl:hasExactSynonym	CAD
 WARN	duplicate_exact_synonym	MONDO:0100077	oboInOwl:hasExactSynonym	CAD

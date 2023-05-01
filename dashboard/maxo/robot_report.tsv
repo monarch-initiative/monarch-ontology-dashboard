@@ -2,11 +2,14 @@ Level	Rule Name	Subject	Property	Value
 WARN	missing_definition	obo:maxo#ABBREVIATION	IAO:0000115	
 WARN	missing_synonymtype_declaration	obo:maxo#ABBREVIATION	rdfs:subPropertyOf	
 INFO	missing_superclass	MAXO:0000019	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000034	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000058	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000075	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000107	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000108	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000109	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000112	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000131	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000173	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000326	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000327	rdfs:subClassOf	
@@ -109,6 +112,8 @@ INFO	missing_superclass	MAXO:0000425	rdfs:subClassOf
 INFO	missing_superclass	MAXO:0000426	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000428	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000431	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000493	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000499	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000543	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000544	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000545	rdfs:subClassOf	
@@ -125,6 +130,8 @@ INFO	missing_superclass	MAXO:0000843	rdfs:subClassOf
 INFO	missing_superclass	MAXO:0000844	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000847	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0000854	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000967	rdfs:subClassOf	
+INFO	missing_superclass	MAXO:0000990	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001007	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001008	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001009	rdfs:subClassOf	
@@ -191,10 +198,3 @@ INFO	missing_superclass	MAXO:0001088	rdfs:subClassOf
 INFO	missing_superclass	MAXO:0001089	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001091	rdfs:subClassOf	
 INFO	missing_superclass	MAXO:0001092	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001093	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001094	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001095	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001096	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001097	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001098	rdfs:subClassOf	
-INFO	missing_superclass	MAXO:0001099	rdfs:subClassOf	
