@@ -4,32 +4,32 @@ base_prefixes:
 - MAXOALT
 - MAXO
 changed: true
-date: 2023-05-01 06:12:41.736010
+date: 2023-06-01 06:06:29.015701
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 12308
-    Declaration: 2453
-    EquivalentClasses: 815
+    AnnotationAssertion: 12344
+    Declaration: 2468
+    EquivalentClasses: 823
     SubClassOf: 1307
-  'Axioms: Number of axioms': 16883
-  'Entities: % of entities reused': 27.07
+  'Axioms: Number of axioms': 16942
+  'Entities: % of entities reused': 27.23
   'Entities: Number of annotation properties': 23
-  'Entities: Number of classes': 2424
+  'Entities: Number of classes': 2439
   'Entities: Number of data properties': 0
   'Entities: Number of individuals': 0
   'Entities: Number of object properties': 10
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 7652
-    ObjectIntersectionOf: 977
-    ObjectSomeValuesFrom: 1620
+    Class: 7696
+    ObjectIntersectionOf: 990
+    ObjectSomeValuesFrom: 1633
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
     _dashboard: 0.882
     _formula: (3*impact+2*dashboard)/5
     _impact: 0.222
     _impact_external: 0
-    _reuse: 0.271
+    _reuse: 0.272
     oboscore: 0.486
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 2
@@ -37,26 +37,26 @@ metrics:
   'Info: Syntax': RDF/XML Syntax
   'Info: Usage of namespaces in axioms':
     BFO: 499
-    CHEBI: 684
+    CHEBI: 705
     CL: 74
     COB: 2
     FOODON: 98
     HP: 92
-    IAO: 1790
-    MAXO: 6209
+    IAO: 1797
+    MAXO: 6240
     MAXOALT: 1
     NBO: 18
     OBI: 14
     PATO: 46
     PR: 31
-    RO: 812
+    RO: 817
     UBERON: 703
     dc: 1
-    dc11: 1663
-    oboInOwl: 7428
+    dc11: 1670
+    oboInOwl: 7443
     owl: 57
     rdf: 383
-    rdfs: 1884
+    rdfs: 1891
   'Info: Which ontologies use it?':
   - ecto
   - mondo
@@ -94,14 +94,14 @@ results:
   FP20 Responsiveness:
     status: PASS
   ROBOT Report:
-    comment: 2 warnings, 648 info messages.
+    comment: 2 warnings, 655 info messages.
     file: robot_report
     results:
       ERROR: 0
-      INFO: 648
+      INFO: 655
       WARN: 2
     status: WARN
-sha256_hash: 7404ef9165227bf593cbac3c6012fb92bb65396d64fa74c2725cd91565f28415
+sha256_hash: a3b5be38680071b78dbc3d956af60ce814eae297afb34a5c743c9beb35c2b873
 summary:
   comment: 1 errors
   status: ERROR
@@ -109,4 +109,4 @@ summary:
     ERROR: 1
     INFO: 1
     WARN: 2
-version: http://purl.obolibrary.org/obo/maxo/releases/2023-04-18/maxo-base.owl
+version: http://purl.obolibrary.org/obo/maxo/releases/2023-05-17/maxo-base.owl

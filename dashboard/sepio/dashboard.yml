@@ -4,7 +4,7 @@ base_prefixes:
 - SEPIOALT
 - SEPIO
 changed: true
-date: 2023-05-01 06:12:51.236824
+date: 2023-06-01 06:06:34.421923
 metrics:
   'Axioms: Breakdown of axiom types':
     AnnotationAssertion: 777
