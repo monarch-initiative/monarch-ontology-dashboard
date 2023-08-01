@@ -1,6 +1,5 @@
 IRI	Label	Issue
 http://purl.obolibrary.org/obo/SEPIO_0000109	expresses	shares label with http://purl.obolibrary.org/obo/RO_0002292
-http://purl.obolibrary.org/obo/IAO_0000136	is_about	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000006	has_evidence_line	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000007	has_supporting_evidence_line	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000008	has_disputing_evidence_line	not an RO property
@@ -59,18 +58,6 @@ http://purl.obolibrary.org/obo/SEPIO_0000439	has_disputing_evidence_from_source	
 http://purl.obolibrary.org/obo/SEPIO_0000440	has_supporting_evidence	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000441	has_disputing_evidence	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000442	reference	not an RO property
-http://purl.org/dc/terms/source	source	not an RO property
-http://purl.org/oban/association_has_object	association has object	not an RO property
-http://purl.org/oban/association_has_predicate	association has predicate	not an RO property
-http://purl.org/oban/association_has_subject	association has subject	not an RO property
-http://purl.org/pav/authoredBy	authored by	not an RO property
-http://purl.org/pav/createdBy	created by	not an RO property
-http://purl.org/pav/curatedBy	curated by	not an RO property
-http://purl.org/pav/derivedFrom	derived from	not an RO property
-http://purl.org/pav/importedFrom	imported from	not an RO property
-http://purl.org/pav/retrievedFrom	retrieved from	not an RO property
-http://purl.org/pav/sourceAccessedAt	source accessed at	not an RO property
-http://purl.obolibrary.org/obo/ERO_0000480	has_url	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000036	date_modified	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000040	date_evaluated	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000051	date_submitted	not an RO property
@@ -91,11 +78,3 @@ http://purl.obolibrary.org/obo/SEPIO_0000429	evidence_line_strength_score	not an
 http://purl.obolibrary.org/obo/SEPIO_0000433	activity_location	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000434	exploratorydataproperty	not an RO property
 http://purl.obolibrary.org/obo/SEPIO_0000436	date_created	not an RO property
-http://purl.obolibrary.org/obo/STATO_0000129	has_value	not an RO property
-http://purl.org/dc/elements/1.1/description	description	not an RO property
-http://purl.org/dc/terms/date	date	not an RO property
-http://purl.org/dc/terms/identifier	identifier	not an RO property
-http://purl.org/dc/terms/title	title	not an RO property
-http://purl.org/ontology/bibo/doi	digital object identifier (doi)	not an RO property
-http://purl.org/pav/version	version	not an RO property
-http://xmlns.com/foaf/0.1/name	name	not an RO property

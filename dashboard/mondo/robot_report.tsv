@@ -156,8 +156,6 @@ WARN	duplicate_exact_synonym	MONDO:0001156	oboInOwl:hasExactSynonym	BPD
 WARN	duplicate_exact_synonym	MONDO:0019091	oboInOwl:hasExactSynonym	BPD
 WARN	duplicate_exact_synonym	MONDO:0007931	oboInOwl:hasExactSynonym	BMD
 WARN	duplicate_exact_synonym	MONDO:0010311	oboInOwl:hasExactSynonym	BMD
-WARN	duplicate_exact_synonym	MONDO:0020643	oboInOwl:hasExactSynonym	AUTS1
-WARN	duplicate_exact_synonym	MONDO:0800416	oboInOwl:hasExactSynonym	AUTS1
 WARN	duplicate_exact_synonym	MONDO:0002492	oboInOwl:hasExactSynonym	ARF
 WARN	duplicate_exact_synonym	MONDO:0017767	oboInOwl:hasExactSynonym	ARF
 WARN	duplicate_exact_synonym	MONDO:0000395	oboInOwl:hasExactSynonym	ARBD
@@ -198,3 +196,5 @@ WARN	duplicate_label_synonym	MONDO:0000293	oboInOwl:hasExactSynonym	coenurosis
 WARN	duplicate_label_synonym	MONDO:0000299	oboInOwl:hasExactSynonym	thelaziasis
 WARN	duplicate_label_synonym	MONDO:0000301	oboInOwl:hasExactSynonym	ophthalmomyiasis
 WARN	duplicate_label_synonym	MONDO:0000302	oboInOwl:hasExactSynonym	basidiobolomycosis
+WARN	duplicate_label_synonym	MONDO:0000313	oboInOwl:hasExactSynonym	hypophosphatemia
+WARN	duplicate_label_synonym	MONDO:0000328	oboInOwl:hasExactSynonym	hyperphosphatemia

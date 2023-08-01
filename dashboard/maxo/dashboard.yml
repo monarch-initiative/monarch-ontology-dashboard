@@ -4,32 +4,32 @@ base_prefixes:
 - MAXOALT
 - MAXO
 changed: true
-date: 2023-06-01 06:06:29.015701
+date: 2023-08-01 06:12:10.700813
 metrics:
   'Axioms: Breakdown of axiom types':
-    AnnotationAssertion: 12344
-    Declaration: 2468
+    AnnotationAssertion: 12394
+    Declaration: 2487
     EquivalentClasses: 823
-    SubClassOf: 1307
-  'Axioms: Number of axioms': 16942
-  'Entities: % of entities reused': 27.23
+    SubClassOf: 1327
+  'Axioms: Number of axioms': 17031
+  'Entities: % of entities reused': 27.02
   'Entities: Number of annotation properties': 23
-  'Entities: Number of classes': 2439
+  'Entities: Number of classes': 2458
   'Entities: Number of data properties': 0
   'Entities: Number of individuals': 0
   'Entities: Number of object properties': 10
   'Entities: Number of unsatisfiable classes': 0
   'Info: Breakdown of OWL class expressions used':
-    Class: 7696
+    Class: 7755
     ObjectIntersectionOf: 990
-    ObjectSomeValuesFrom: 1633
+    ObjectSomeValuesFrom: 1635
   'Info: Does the ontology fall under OWL 2 DL?': true
   'Info: Experimental OBO score':
     _dashboard: 0.882
     _formula: (3*impact+2*dashboard)/5
     _impact: 0.222
     _impact_external: 0
-    _reuse: 0.272
+    _reuse: 0.27
     oboscore: 0.486
   'Info: How many externally documented uses?': 0
   'Info: How many ontologies use it?': 2
@@ -42,8 +42,8 @@ metrics:
     COB: 2
     FOODON: 98
     HP: 92
-    IAO: 1797
-    MAXO: 6240
+    IAO: 1816
+    MAXO: 6301
     MAXOALT: 1
     NBO: 18
     OBI: 14
@@ -52,11 +52,11 @@ metrics:
     RO: 817
     UBERON: 703
     dc: 1
-    dc11: 1670
-    oboInOwl: 7443
+    dc11: 1672
+    oboInOwl: 7453
     owl: 57
     rdf: 383
-    rdfs: 1891
+    rdfs: 1910
   'Info: Which ontologies use it?':
   - ecto
   - mondo
@@ -94,14 +94,14 @@ results:
   FP20 Responsiveness:
     status: PASS
   ROBOT Report:
-    comment: 2 warnings, 655 info messages.
+    comment: 2 warnings, 656 info messages.
     file: robot_report
     results:
       ERROR: 0
-      INFO: 655
+      INFO: 656
       WARN: 2
     status: WARN
-sha256_hash: a3b5be38680071b78dbc3d956af60ce814eae297afb34a5c743c9beb35c2b873
+sha256_hash: adea03dcada010d99567be1f5545159c4ee36d9853eee0dfb7258ddd91d19b2c
 summary:
   comment: 1 errors
   status: ERROR
@@ -109,4 +109,4 @@ summary:
     ERROR: 1
     INFO: 1
     WARN: 2
-version: http://purl.obolibrary.org/obo/maxo/releases/2023-05-17/maxo-base.owl
+version: http://purl.obolibrary.org/obo/maxo/releases/2023-06-06/maxo-base.owl

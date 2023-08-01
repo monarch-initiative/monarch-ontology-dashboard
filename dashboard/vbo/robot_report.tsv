@@ -1,5 +1,4 @@
 Level	Rule Name	Subject	Property	Value
-WARN	annotation_whitespace	VBO:0000392	oboInOwl:hasExactSynonym	Swedish Red and White 
 WARN	annotation_whitespace	VBO:0002085	oboInOwl:hasExactSynonym	Jawari 
 WARN	annotation_whitespace	VBO:0002640	oboInOwl:hasExactSynonym	Smedja rasa 
 WARN	annotation_whitespace	VBO:0003614	oboInOwl:hasExactSynonym	Dual Puporse Shorthorns 
@@ -198,3 +197,4 @@ WARN	duplicate_exact_synonym	VBO:0009467	oboInOwl:hasExactSynonym	Zhaotong
 WARN	duplicate_exact_synonym	VBO:0015776	oboInOwl:hasExactSynonym	Zhaotong
 WARN	duplicate_exact_synonym	VBO:0001691	oboInOwl:hasExactSynonym	Zetska zuja
 WARN	duplicate_exact_synonym	VBO:0015567	oboInOwl:hasExactSynonym	Zetska zuja
+WARN	duplicate_exact_synonym	VBO:0016137	oboInOwl:hasExactSynonym	Zerasca
