@@ -1,4 +1,7 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	multiple_labels	SEPIO:0000048	rdfs:label	agent role
+ERROR	multiple_labels	SEPIO:0000048	rdfs:label	contributor role@en
+WARN	duplicate_label_synonym	SEPIO:0000048	IAO:0000118	agent role
 WARN	missing_definition	SEPIO:0000017	IAO:0000115	
 WARN	missing_definition	SEPIO:0000026	IAO:0000115	
 WARN	missing_definition	SEPIO:0000027	IAO:0000115	

@@ -138,7 +138,6 @@ WARN	duplicate_label_synonym	HP:0000769	oboInOwl:hasExactSynonym	Abnormality of 
 WARN	duplicate_label_synonym	HP:0000773	oboInOwl:hasExactSynonym	Short ribs
 WARN	duplicate_label_synonym	HP:0000774	oboInOwl:hasExactSynonym	Narrow chest
 WARN	duplicate_label_synonym	HP:0000775	oboInOwl:hasExactSynonym	Abnormality of the diaphragm
-WARN	duplicate_label_synonym	HP:0000777	oboInOwl:hasExactSynonym	Abnormality of the thymus
 WARN	duplicate_label_synonym	HP:0000789	oboInOwl:hasExactSynonym	Infertility
 WARN	duplicate_label_synonym	HP:0000811	oboInOwl:hasExactSynonym	Abnormal external genitalia
 WARN	duplicate_label_synonym	HP:0000812	oboInOwl:hasExactSynonym	Abnormal internal genitalia
@@ -198,3 +197,4 @@ WARN	duplicate_label_synonym	HP:0001234	oboInOwl:hasExactSynonym	Hitchhiker thum
 WARN	duplicate_label_synonym	HP:0001238	oboInOwl:hasExactSynonym	Slender finger
 WARN	duplicate_label_synonym	HP:0001249	oboInOwl:hasExactSynonym	Intellectual disability
 WARN	duplicate_label_synonym	HP:0001254	oboInOwl:hasExactSynonym	Lethargy
+WARN	duplicate_label_synonym	HP:0001256	oboInOwl:hasExactSynonym	Intellectual disability, mild
